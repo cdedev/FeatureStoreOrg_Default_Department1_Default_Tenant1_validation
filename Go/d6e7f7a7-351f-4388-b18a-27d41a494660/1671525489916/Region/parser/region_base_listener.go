@@ -1,0 +1,34 @@
+// Code generated from /usr/local/lib/Go/d6e7f7a7-351f-4388-b18a-27d41a494660/1671525489916/Region.g4 by ANTLR 4.10.1. DO NOT EDIT.
+
+package parser // Region
+
+import "github.com/antlr/antlr4/runtime/Go/antlr"
+
+// BaseRegionListener is a complete listener for a parse tree produced by RegionParser.
+type BaseRegionListener struct{}
+
+var _ RegionListener = &BaseRegionListener{}
+
+// VisitTerminal is called when a terminal node is visited.
+func (s *BaseRegionListener) VisitTerminal(node antlr.TerminalNode) {}
+
+// VisitErrorNode is called when an error node is visited.
+func (s *BaseRegionListener) VisitErrorNode(node antlr.ErrorNode) {}
+
+// EnterEveryRule is called when any rule is entered.
+func (s *BaseRegionListener) EnterEveryRule(ctx antlr.ParserRuleContext) {}
+
+// ExitEveryRule is called when any rule is exited.
+func (s *BaseRegionListener) ExitEveryRule(ctx antlr.ParserRuleContext) {}
+
+// EnterExpression is called when production expression is entered.
+func (s *BaseRegionListener) EnterExpression(ctx *ExpressionContext) {}
+
+// ExitExpression is called when production expression is exited.
+func (s *BaseRegionListener) ExitExpression(ctx *ExpressionContext) {}
+
+// EnterRegion is called when production region is entered.
+func (s *BaseRegionListener) EnterRegion(ctx *RegionContext) {}
+
+// ExitRegion is called when production region is exited.
+func (s *BaseRegionListener) ExitRegion(ctx *RegionContext) {}
