@@ -1,0 +1,36 @@
+// Code generated from /usr/local/lib/Go/d6e7f7a7-351f-4388-b18a-27d41a494660/1672076407953/WaterSaturationFraction.g4 by ANTLR 4.10.1. DO NOT EDIT.
+
+package parser // WaterSaturationFraction
+
+import "github.com/antlr/antlr4/runtime/Go/antlr"
+
+// BaseWaterSaturationFractionListener is a complete listener for a parse tree produced by WaterSaturationFractionParser.
+type BaseWaterSaturationFractionListener struct{}
+
+var _ WaterSaturationFractionListener = &BaseWaterSaturationFractionListener{}
+
+// VisitTerminal is called when a terminal node is visited.
+func (s *BaseWaterSaturationFractionListener) VisitTerminal(node antlr.TerminalNode) {}
+
+// VisitErrorNode is called when an error node is visited.
+func (s *BaseWaterSaturationFractionListener) VisitErrorNode(node antlr.ErrorNode) {}
+
+// EnterEveryRule is called when any rule is entered.
+func (s *BaseWaterSaturationFractionListener) EnterEveryRule(ctx antlr.ParserRuleContext) {}
+
+// ExitEveryRule is called when any rule is exited.
+func (s *BaseWaterSaturationFractionListener) ExitEveryRule(ctx antlr.ParserRuleContext) {}
+
+// EnterExpression is called when production expression is entered.
+func (s *BaseWaterSaturationFractionListener) EnterExpression(ctx *ExpressionContext) {}
+
+// ExitExpression is called when production expression is exited.
+func (s *BaseWaterSaturationFractionListener) ExitExpression(ctx *ExpressionContext) {}
+
+// EnterWatersaturationfraction is called when production watersaturationfraction is entered.
+func (s *BaseWaterSaturationFractionListener) EnterWatersaturationfraction(ctx *WatersaturationfractionContext) {
+}
+
+// ExitWatersaturationfraction is called when production watersaturationfraction is exited.
+func (s *BaseWaterSaturationFractionListener) ExitWatersaturationfraction(ctx *WatersaturationfractionContext) {
+}
